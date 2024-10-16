@@ -89,4 +89,4 @@ parameters of sanppyhexmeshDict in the system folder.
 ```
 # Source
 
-[Link](https://github.com/SustainableUrbanSystemsLab/CP-IBPC2024-Humidity-Case) to this repository.
+[Link](https://www.researchgate.net/publication/384971986_How_much_computational_complexity_is_necessary_to_model_relevant_aspects_in_microclimate_urban_physics) to the paper.
