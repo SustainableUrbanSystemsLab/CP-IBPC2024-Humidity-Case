@@ -20,13 +20,13 @@ internalField   uniform (0 0 0);
 
 boundaryField
 {
-    east
+    west
     {
         type            atmBoundaryLayerInletVelocity;
         #include        "include/ABLConditions"
     }
 
-    west
+    east
     {
         type            inletOutlet;
         inletValue      uniform (0 0 0);

@@ -25,7 +25,7 @@ boundaryField
         type            zeroGradient;
     }
 
-    east 
+    west 
     {
         type            userFixedHumidity;
         mode            relative;
@@ -112,7 +112,7 @@ boundaryField
         value           uniform 0.0;
     }
 
-    west
+    east
     {
         type            zeroGradient;
     }

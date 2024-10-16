@@ -37,13 +37,13 @@ boundaryField
         type            slip;
     }
 
-    east
+    west
     {
         type            atmBoundaryLayerInletK;
         #include        "include/ABLConditions";
     }
 
-    west
+    east
     {
         type            inletOutlet;
         inletValue      uniform 1.3;

@@ -37,7 +37,7 @@ boundaryField
         type            slip;
     }
 
-    east
+    west
     {
         type            uniformFixedValue;
 	uniformValue	table
@@ -120,7 +120,7 @@ boundaryField
       
     }
 
-    west
+    east
     {
        type inletOutlet;
        value uniform 294.32;
