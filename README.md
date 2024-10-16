@@ -91,6 +91,7 @@ parameters of sanppyhexmeshDict in the system folder.
   school = {Toronto Metropolitan University},
 
   type = {Conference Paper}
+}
 ```
 # Source
 
