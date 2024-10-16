@@ -21,16 +21,16 @@ Accurate microclimate data obtained through observation or CFD models is crucial
 
 #Repository Structure
 
-- tutorial/: Directory containing the case study used in the research.
-- Resources/: Directory containing weather station data used in the research.
-- README.md: This file, providing an overview of the research and repository.
+- ```tutorial/```: Directory containing the case study used in the research.
+- ```Resources/```: Directory containing weather station data used in the research.
+- ```README.md:``` This file, providing an overview of the research and repository.
 
 # Instructions for running the case
 
 
-1-      **Compile the solver***
+1-      **Compile the solver**
 
-** Steps to compile the updated solver***
+**Steps to compile the updated solver**
 
 Clone the repository to any place you want using the
 the following command:
