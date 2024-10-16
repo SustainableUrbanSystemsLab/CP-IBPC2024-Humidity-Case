@@ -53,7 +53,7 @@ updated solver:
 @~: Allwmake
 ```
 
-You are done. After that, you can use the updated **buoyantHumidityPimpleFoam* solver.
+You are done. After that, you can use the updated *buoyantHumidityPimpleFoam* solver.
 
 2-      **Run the test case**
 
