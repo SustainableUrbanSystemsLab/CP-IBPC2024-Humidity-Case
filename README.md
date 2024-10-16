@@ -37,8 +37,7 @@ Clone the repository to any place you want using the
 the following command:
 
 ```console
-@-: git clone
-https://github.com/Eddy3D-Dev/humidityRhoThermo.git
+@-: git clone https://github.com/Eddy3D-Dev/humidityRhoThermo.git
 ```
 
 After that, load your OpenFOAM environment (if it has not already
@@ -63,15 +62,14 @@ Clone the repository to any place you want using the
 the following command:
 
 ```console
-@-: git clone
-https://github.com/SustainableUrbanSystemsLab/CP-IBPC2024-Humidity-Case/tree/main/tutorial.git
+@-: git clone https://github.com/SustainableUrbanSystemsLab/CP-IBPC2024-Humidity-Case/tree/main/tutorial.git
 ```
 
 After that, load your OpenFOAM environment (if it has not already happened) and move it into the repository. Here, check your version you want:
 
 ```console
 @~: git checkout OpenFOAM-v9  
-
+```
 ```console
 @~: Allprepare
 ```
@@ -81,6 +79,7 @@ parameters of sanppyhexmeshDict in the system folder.
 
 # Citation
 
+```console
 @confpaper{
 
   title = {How much computational complexity is necessary to model relevant aspects in microclimate urban physics?},
@@ -92,7 +91,7 @@ parameters of sanppyhexmeshDict in the system folder.
   school = {Toronto Metropolitan University},
 
   type = {Conference Paper}
-
+```
 # Source
 
 [Link](https://github.com/SustainableUrbanSystemsLab/CP-IBPC2024-Humidity-Case) to this repository.
