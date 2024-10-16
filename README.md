@@ -9,8 +9,7 @@ Accurate microclimate data obtained through observation or CFD models is crucial
 
 # Keywords
 
-Urban Micro-climate, urban heat island, CFD, Urban building
-energy modeling
+```Urban Micro-climate, urban heat island, CFD, Urban building energy modeling```
 
 # Author
 
