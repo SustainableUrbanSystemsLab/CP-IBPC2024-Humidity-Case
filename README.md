@@ -14,8 +14,8 @@ energy modeling
 
 # Author
 
-- Name: [Sina Rahimi](sina.rahimi@torontomu.ca)
-- LinkedIn: [LinK](https://www.linkedin.com/in/sinarahimi2020/)
+- Name: [Sina Rahimi](mailto:sina.rahimi@torontomu.ca)
+- LinkedIn: [Link](https://www.linkedin.com/in/sinarahimi2020/)
 - Institution: Toronto Metropolitan University
 - Program: PhD Building Science
 - Advisors: Dr. Umberto Berardi, Dr. Patrick Kastner
