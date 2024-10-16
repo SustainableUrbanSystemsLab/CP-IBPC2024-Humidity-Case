@@ -36,7 +36,7 @@ Clone the repository to any place you want using the
 the following command:
 
 ```console
-@-: git clone https://github.com/Eddy3D-Dev/humidityRhoThermo.git
+@-: git clone https://github.com/SustainableUrbanSystemsLab/humidityRhoThermo.git
 ```
 
 After that, load your OpenFOAM environment (if it has not already
