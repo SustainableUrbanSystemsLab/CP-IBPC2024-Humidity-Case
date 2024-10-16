@@ -1,9 +1,6 @@
 # Conference-IBPC2024-Humidity-Case
 
-<style>
-</style>
-
-**How much computational complexity is necessary to model relevant aspects in microclimate urban physics****?**
+**How much computational complexity is necessary to model relevant aspects in microclimate urban physics?**
 
 **Abstract**
 
