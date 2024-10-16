@@ -81,15 +81,10 @@ parameters of sanppyhexmeshDict in the system folder.
 
 ```console
 @confpaper{
-
   title = {How much computational complexity is necessary to model relevant aspects in microclimate urban physics?},
-
   author = {Rahimi, Sina},
-
   year = {2024},
-
   school = {Toronto Metropolitan University},
-
   type = {Conference Paper}
 }
 ```
