@@ -1,13 +1,17 @@
-# Conference-IBPC2024-Humidity-Case
+# # JP-BE2025-Humidity-Case
 
 <style>
 </style>
 
-**How much computational complexity is necessary to model relevant aspects in microclimate urban physics****?**
+**Incorporating Convective Heat Transfer and Humidity Effects in Urban Microclimate Modeling: Should we care?****?**
+
+![](C:\Users\engsi\AppData\Roaming\marktext\images\2025-04-15-18-25-11-image.png)
+
+
 
 **Abstract**
 
-Accurate microclimate data, obtained through observation or CFD models, is crucial for urban design and environmental improvements. Eddy3D is one the tool widely used for simulating microclimate conditions. However, the tool currently lacks the incorporation of relevant urban physics into the sim-ulation. The present research focuses on integrating the modeling of convec-tive heat transfer and relative humidity within the Eddy3D wind module and unsteady state modeling. The study reports the approaches through simula-tions employing a simplified canyon model. The study site is the campus of the Toronto Metropolitan University in Toronto, Ontario. The simulation da-ta is validated using real-time data collected from the weather station located on the roof of one of the buildings on the downtown campus. By comparing the simulated data with the real-time data, the study assesses the effective-ness of the new features and determines their appropriateness for integration them into the Eddy3D tool. The findings highlight the adaptability and ac-curacy of the approach across various scenarios, effectively handling com-plex modeling to enhance the capabilities of microclimate predictions.
+ccurate microclimate data, obtained through observation or CFD models, is crucial for urban design and environmental improvements. One approach to quantifying microclimate conditions involves the use of isothermal CFD simulations combined with convective heat transfer and relative humidity modeling, implemented via the buoyantHumidityPimpleFoam solver in OpenFOAM. This research investigates the additional complexity when incorporating these factors into unsteady-state modeling for urban microclimate simulations. This study reports the approaches through simulations employing a simplified canyon model. The study site is the campus of the Toronto Metropolitan University campus in Toronto, Ontario, Canada. The simulation data is validated using real-time data collected from the weather station located on the roof of one of the buildings on the downtown campus. By comparing the simulated data with real-time observations, the study assesses the effectiveness of the new features and evaluates their suitability for integration into existing urban microclimate modeling frameworks. The results show that adding humidity not only improves the model realism but also greatly increases its ability to predict complex urban microclimate dynamics. These findings highlight the importance of this approach for applications such as thermal comfort optimization, public health planning, and climate resilience strategies, demonstrating its potential to advance urban microclimate simulations.
 
 **Keywords**
 
@@ -19,8 +23,8 @@ energy modeling
 - Name: Sina Rahimi (hyper to email)
 - LinkedIn: link
 - Institution: Toronto Metropolitan University
-- Program: PhD Building Scinece
-- Advisors: Dr. Umberto Berardi, Dr. Patrick Kastner
+- Program: Building Scinece
+- Advisors: Dr. Patrick Kastner, Dr. Umberto Berardi
 
 **Repository Structure**
 
@@ -40,7 +44,7 @@ following command:
 
 ```console
 @-: git clone
-https://github.com/Eddy3D-Dev/humidityRhoThermo.git
+https://github.com/SustainableUrbanSystemsLab/humidityRhoThermo.git
 ```
 
 After that load your OpenFOAM environment (if not already
@@ -66,7 +70,7 @@ following command:
 
 ```console
 @-: git clone
-https://github.com/SustainableUrbanSystemsLab/CP-IBPC2024-Humidity-Case/tree/main/tutorial.git
+https://github.com/SustainableUrbanSystemsLab/JP-BE2025-Humidity-Case.git
 ```
 
 After that load your OpenFOAM environment (if not already happend) and move into the repository. Here checkout your version you want:
@@ -84,18 +88,28 @@ parameters of sanppyhexmeshDict in the sytsem folder.
 
 **Citation**
 
+Please cite our work if you decide to use this for your own research.
+
+**APA**
+
+```
+Rahimi, S., Kastner, P., & Berardi, U. (2025). Incorporating convective heat transfer and humidity effects in urban microclimate modeling: Should we care? Building and Environment, 276, 112858. https://doi.org/https://doi.org/10.1016/j.buildenv.2025.112858.
+```
+
+**Bibtex**
+
 @confpaper{
 
-  title = {How much computational complexity is necessary to model relevant aspects in microclimate urban physics?},
+  title = {Incorporating convective heat transfer and humidity effects in urban microclimate modeling: Should we care?},
 
-  author = {Rahimi, Sina},
+  author = {Rahimi, Sina}, {Patrik Kastner}, {Umberto Berardi}
 
-  year = {2024},
+  year = {2025},
 
   school = {Toronto Metropolitan University},
 
-  type = {Conference Paper}
+  type = {Journal Paper}
 
 **Source**
 
-[Link](https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data) to this repository.
+[https://www.sciencedirect.com/science/article/pii/S0360132325003403](Link) to the paper.
